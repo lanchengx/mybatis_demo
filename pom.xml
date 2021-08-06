@@ -20,22 +20,22 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
-<!--		<dependency>-->
-<!--			<groupId>org.mybatis</groupId>-->
-<!--			<artifactId>mybatis</artifactId>-->
-<!--			<version>3.5.4</version>-->
-<!--		</dependency>-->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.5.4</version>
+		</dependency>
 
 <!--        <dependency>-->
 <!--            <groupId>com.mymybatis</groupId>-->
 <!--            <artifactId>mybatis</artifactId>-->
 <!--            <version>3.5.5</version>-->
 <!--        </dependency>-->
-        <dependency>
-            <groupId>com.lan</groupId>
-            <artifactId>lanmybatis</artifactId>
-            <version>0.0.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.lan</groupId>-->
+<!--            <artifactId>lanmybatis</artifactId>-->
+<!--            <version>0.0.1</version>-->
+<!--        </dependency>-->
 
 
 		<!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
@@ -48,16 +48,6 @@
 	</dependencies>
 	<build>
 		<finalName>mybatis-demo</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
         <resources>
 			<resource>
 				<directory>src/main/resources</directory>
